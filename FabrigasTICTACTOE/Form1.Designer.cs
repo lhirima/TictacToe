@@ -30,17 +30,17 @@
         {
             label1 = new Label();
             label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
+            lbl_ComputerScore = new Label();
+            lbl_PlayerScore = new Label();
+            b1 = new Button();
+            b4 = new Button();
+            b7 = new Button();
+            b8 = new Button();
+            b5 = new Button();
+            b2 = new Button();
+            b9 = new Button();
+            b6 = new Button();
+            b3 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -63,124 +63,124 @@
             label2.TabIndex = 1;
             label2.Text = "Cpu:";
             // 
-            // label3
+            // lbl_ComputerScore
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(180, 77);
-            label3.Name = "label3";
-            label3.Size = new Size(34, 40);
-            label3.TabIndex = 3;
-            label3.Text = "0";
+            lbl_ComputerScore.AutoSize = true;
+            lbl_ComputerScore.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbl_ComputerScore.Location = new Point(180, 77);
+            lbl_ComputerScore.Name = "lbl_ComputerScore";
+            lbl_ComputerScore.Size = new Size(34, 40);
+            lbl_ComputerScore.TabIndex = 3;
+            lbl_ComputerScore.Text = "0";
             // 
-            // label4
+            // lbl_PlayerScore
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(180, 37);
-            label4.Name = "label4";
-            label4.Size = new Size(34, 40);
-            label4.TabIndex = 2;
-            label4.Text = "0";
+            lbl_PlayerScore.AutoSize = true;
+            lbl_PlayerScore.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbl_PlayerScore.Location = new Point(180, 37);
+            lbl_PlayerScore.Name = "lbl_PlayerScore";
+            lbl_PlayerScore.Size = new Size(34, 40);
+            lbl_PlayerScore.TabIndex = 2;
+            lbl_PlayerScore.Text = "0";
             // 
-            // button1
+            // b1
             // 
-            button1.BackColor = Color.FromArgb(128, 128, 255);
-            button1.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(72, 125);
-            button1.Name = "button1";
-            button1.Size = new Size(84, 78);
-            button1.TabIndex = 4;
-            button1.Text = "O";
-            button1.UseVisualStyleBackColor = false;
+            b1.BackColor = Color.FromArgb(128, 128, 255);
+            b1.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            b1.Location = new Point(72, 125);
+            b1.Name = "b1";
+            b1.Size = new Size(84, 78);
+            b1.TabIndex = 4;
+            b1.Text = "O";
+            b1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // b4
             // 
-            button2.BackColor = Color.FromArgb(128, 128, 255);
-            button2.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(72, 209);
-            button2.Name = "button2";
-            button2.Size = new Size(84, 78);
-            button2.TabIndex = 5;
-            button2.Text = "O";
-            button2.UseVisualStyleBackColor = false;
+            b4.BackColor = Color.FromArgb(128, 128, 255);
+            b4.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            b4.Location = new Point(72, 209);
+            b4.Name = "b4";
+            b4.Size = new Size(84, 78);
+            b4.TabIndex = 5;
+            b4.Text = "O";
+            b4.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // b7
             // 
-            button3.BackColor = Color.FromArgb(128, 128, 255);
-            button3.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(72, 293);
-            button3.Name = "button3";
-            button3.Size = new Size(84, 78);
-            button3.TabIndex = 6;
-            button3.Text = "O";
-            button3.UseVisualStyleBackColor = false;
+            b7.BackColor = Color.FromArgb(128, 128, 255);
+            b7.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            b7.Location = new Point(72, 293);
+            b7.Name = "b7";
+            b7.Size = new Size(84, 78);
+            b7.TabIndex = 6;
+            b7.Text = "O";
+            b7.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // b8
             // 
-            button4.BackColor = Color.FromArgb(128, 128, 255);
-            button4.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.Location = new Point(162, 293);
-            button4.Name = "button4";
-            button4.Size = new Size(84, 78);
-            button4.TabIndex = 9;
-            button4.Text = "O";
-            button4.UseVisualStyleBackColor = false;
+            b8.BackColor = Color.FromArgb(128, 128, 255);
+            b8.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            b8.Location = new Point(162, 293);
+            b8.Name = "b8";
+            b8.Size = new Size(84, 78);
+            b8.TabIndex = 9;
+            b8.Text = "O";
+            b8.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // b5
             // 
-            button5.BackColor = Color.FromArgb(128, 128, 255);
-            button5.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button5.Location = new Point(162, 209);
-            button5.Name = "button5";
-            button5.Size = new Size(84, 78);
-            button5.TabIndex = 8;
-            button5.Text = "O";
-            button5.UseVisualStyleBackColor = false;
+            b5.BackColor = Color.FromArgb(128, 128, 255);
+            b5.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            b5.Location = new Point(162, 209);
+            b5.Name = "b5";
+            b5.Size = new Size(84, 78);
+            b5.TabIndex = 8;
+            b5.Text = "O";
+            b5.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // b2
             // 
-            button6.BackColor = Color.FromArgb(128, 128, 255);
-            button6.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button6.Location = new Point(162, 125);
-            button6.Name = "button6";
-            button6.Size = new Size(84, 78);
-            button6.TabIndex = 7;
-            button6.Text = "O";
-            button6.UseVisualStyleBackColor = false;
+            b2.BackColor = Color.FromArgb(128, 128, 255);
+            b2.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            b2.Location = new Point(162, 125);
+            b2.Name = "b2";
+            b2.Size = new Size(84, 78);
+            b2.TabIndex = 7;
+            b2.Text = "O";
+            b2.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // b9
             // 
-            button7.BackColor = Color.FromArgb(128, 128, 255);
-            button7.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button7.Location = new Point(252, 293);
-            button7.Name = "button7";
-            button7.Size = new Size(84, 78);
-            button7.TabIndex = 12;
-            button7.Text = "O";
-            button7.UseVisualStyleBackColor = false;
+            b9.BackColor = Color.FromArgb(128, 128, 255);
+            b9.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            b9.Location = new Point(252, 293);
+            b9.Name = "b9";
+            b9.Size = new Size(84, 78);
+            b9.TabIndex = 12;
+            b9.Text = "O";
+            b9.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // b6
             // 
-            button8.BackColor = Color.FromArgb(128, 128, 255);
-            button8.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button8.Location = new Point(252, 209);
-            button8.Name = "button8";
-            button8.Size = new Size(84, 78);
-            button8.TabIndex = 11;
-            button8.Text = "O";
-            button8.UseVisualStyleBackColor = false;
+            b6.BackColor = Color.FromArgb(128, 128, 255);
+            b6.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            b6.Location = new Point(252, 209);
+            b6.Name = "b6";
+            b6.Size = new Size(84, 78);
+            b6.TabIndex = 11;
+            b6.Text = "O";
+            b6.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // b3
             // 
-            button9.BackColor = Color.FromArgb(128, 128, 255);
-            button9.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button9.Location = new Point(252, 125);
-            button9.Name = "button9";
-            button9.Size = new Size(84, 78);
-            button9.TabIndex = 10;
-            button9.Text = "O";
-            button9.UseVisualStyleBackColor = false;
+            b3.BackColor = Color.FromArgb(128, 128, 255);
+            b3.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            b3.Location = new Point(252, 125);
+            b3.Name = "b3";
+            b3.Size = new Size(84, 78);
+            b3.TabIndex = 10;
+            b3.Text = "O";
+            b3.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -189,17 +189,17 @@
             BackColor = Color.FromArgb(255, 192, 255);
             BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(405, 425);
-            Controls.Add(button7);
-            Controls.Add(button8);
-            Controls.Add(button9);
-            Controls.Add(button4);
-            Controls.Add(button5);
-            Controls.Add(button6);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(label3);
-            Controls.Add(label4);
+            Controls.Add(b9);
+            Controls.Add(b6);
+            Controls.Add(b3);
+            Controls.Add(b8);
+            Controls.Add(b5);
+            Controls.Add(b2);
+            Controls.Add(b7);
+            Controls.Add(b4);
+            Controls.Add(b1);
+            Controls.Add(lbl_ComputerScore);
+            Controls.Add(lbl_PlayerScore);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
@@ -223,5 +223,16 @@
         private Button button7;
         private Button button8;
         private Button button9;
+        private Label lbl_ComputerScore;
+        private Label lbl_PlayerScore;
+        private Button b1;
+        private Button b4;
+        private Button b7;
+        private Button b8;
+        private Button b5;
+        private Button b2;
+        private Button b9;
+        private Button b6;
+        private Button b3;
     }
 }
