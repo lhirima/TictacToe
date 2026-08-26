@@ -4,6 +4,9 @@ namespace FabrigasTICTACTOE
     {
         private const string PLAYER = "X";
         private const string CPU = "O";
+
+        private int PlayerScore = 0;
+        private int ComputerScore = 0;
         private Button[] buttons;
 
         private int[][] winningCombinations = new int[][]
@@ -160,6 +163,9 @@ namespace FabrigasTICTACTOE
                 {
                     MessageBox.Show("Player Wins!");
                     ClearGame();
+
+                    HighlightWinningCombination(combo);
+                    CountWin(PLAYER);
                     return true;
                 }
 
@@ -180,6 +186,39 @@ namespace FabrigasTICTACTOE
             }
 
             return false;
+        }
+
+        private void HighlightWinningCombination(int[] combo)
+        {
+            foreach (var i in combo)
+                buttons[i - 1].BackColor = Color.HotPink;
+
+            Application.DoEvents();
+            Thread.Sleep(2000);
+
+            foreach (var i in combo)
+                buttons[i - 1].BackColor = Color.MediumPurple;
+        }
+
+        private void CountWin(string winner)
+        {
+            if (winner == PLAYER) PlayerScore++;
+            else if (winner == CPU) ComputerScore++;
+            lbl_PlayerScore.Text = PlayerScore.ToString();
+            lbl_ComputerScore.Text = ComputerScore.ToString();
+
+            if (PlayerScore == 3 || ComputerScore == 3)
+            {
+                string message = PlayerScore == 3 ? "Player Wins the Game!" : "Computer Wins the Game!";
+                MessageBox.Show(message);
+                PlayerScore = 0;
+                ComputerScore = 0;
+                lbl_PlayerScore.Text = PlayerScore.ToString();
+                lbl_ComputerScore.Text = ComputerScore.ToString();
+                Thread.Sleep(1000);
+            }
+
+            ClearGame();
         }
         private void ClearGame()
         {
