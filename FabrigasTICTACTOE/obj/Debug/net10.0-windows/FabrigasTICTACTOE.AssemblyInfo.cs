@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FabrigasTICTACTOE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f461ebc70b3f71e02d1dd6f09263a0610523e2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67f8a89b84a598123582c4099487e53a1cab200a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FabrigasTICTACTOE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FabrigasTICTACTOE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
